@@ -15,15 +15,15 @@ while keep_running:
         continue
 
     elif entry == 'done':
-        print("👙ou’ve exited the anime selection.")
+        print("You've exited the anime selection.")
         break
 
     else:
-        print("That anime isn’t on the recommendation list.")
+        print("That anime isn't on the recommendation list.")
         continue
 
 if picked_list:
-    print("\n🁈ere’s what’s on your anime watchlist:")
+    print("\nHere’s what’s on your anime watchlist:")
     for title in picked_list:
         print(f"   • {title}")
 else:
